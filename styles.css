@@ -1,3 +1,19 @@
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.2rem; 
+  font-family: Arial, sans-serif;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 1rem; 
+  font-family: Arial, sans-serif; 
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
