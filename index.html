@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Red Social</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Mini Red Social</h1>
+    <form id="postForm">
+      <input type="text" id="title" placeholder="Título de la publicación" required />
+      <textarea id="description" placeholder="Descripción" required></textarea>
+      <input type="file" id="image" accept="image/*" required />
+      <button type="submit">Publicar</button>
+    </form>
+
+    <section id="feed" class="feed">
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
